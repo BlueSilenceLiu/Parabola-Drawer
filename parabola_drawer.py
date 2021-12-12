@@ -79,7 +79,7 @@ def _main():
     # asking for direction
     try:
         d = float(numinput(title="parameter:elevation",
-                           prompt="Please enter the  you want the ball be:(°)",
+                           prompt="Please enter the direction you want the ball be:(°)",
                            default=45,
                            minval=-89.9,
                            maxval=89.9))
